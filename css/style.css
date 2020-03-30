@@ -1,4 +1,7 @@
-body { background: #1a1a1a; }
+body {
+  background: #1a1a1a;
+  color: #7aa;
+}
 
 div.main {
     color: #e2e2e2;
@@ -7,7 +10,7 @@ div.main {
     text-align:center;
 }
 
-div#board {
+div.board {
     border-style:none;
     background:Transparent;
     color:#00a100;
@@ -19,6 +22,7 @@ div#board {
     font-size:2em;
     resize: none;
     text-align:left;
+    display:none;
 }
 
 @keyframes color {
@@ -65,4 +69,3 @@ a:hover {
   color:red;
   font-size:26px;
 }
-
