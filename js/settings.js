@@ -26,7 +26,7 @@ $(function(){
         mistype:50,                 // mistype rate: 1:N per char [default:false]
         locale:'en',               // keyboard layout (to fit mistype); supported: 'en' (english) or 'de' (german) [default:'en']
 
-        caret:'\u258e',            // caret content; can be html too [default:true (\u258e)]
+        caret:'<font style="color:blue;">\u258e</font>',            // caret content; can be html too [default:true (\u258e)]
         blink:true,                // blink-interval in ms; if TRUE, speed*3  [default:true]
         blink_perm:false,          // permanent blinking? if FALSE, caret blinks only on delay/pause/finish [default:false]
         repeat:0,                  // repeat typing: if TRUE, infinite or N times [default:0]
