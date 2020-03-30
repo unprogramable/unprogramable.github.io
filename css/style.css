@@ -1,0 +1,65 @@
+body { background: #1a1a1a; }
+
+div.main {
+    color: #e2e2e2;
+    margin: 2px 0px 0px 2px;
+    background:#121212;
+    text-align:center;
+}
+
+div#board {
+    border-style:none;
+    background:Transparent;
+    color:#00a100;
+    animation: color 2s infinite;
+    margin: 5px;
+    width:95%;
+    padding:10px;
+    font-family:sans;
+    font-size:16px;
+    resize: none;
+    text-align:left;
+}
+
+@keyframes color {
+
+    0% {
+        color: rgba(0,175,0, 0.5);
+    }
+    20% {
+        color: rgba(0,175,0, 0.6);
+    }
+    40% {
+        color: rgba(0,175,0, 0.7);
+    }
+    50% {
+        color: rgba(0,175,0, 0.8);
+    }
+    60% {
+        color: rgba(0,175,0, 0.7);
+    }
+    80% {
+        color: rgba(0,175,0, 0.6);
+    }
+    100% {
+        color: rgba(0,175,0, 0.5);
+    }
+}
+
+
+div.wtf {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
