@@ -16,7 +16,7 @@ div#board {
     width:95%;
     padding:10px;
     font-family:sans;
-    font-size:16px;
+    font-size:2em;
     resize: none;
     text-align:left;
 }
@@ -46,20 +46,23 @@ div#board {
     }
 }
 
-
-div.wtf {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    position: relative;
-    animation-name: example;
-    animation-duration: 4s;
+a {
+  background-color:#707;
+  display: inline-block;
+  text-align: center;
+  padding:5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin:2px;
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  width:50%;
 }
 
-@keyframes example {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
+a:hover {
+  background-color: #fff;
+  color:red;
+  font-size:26px;
 }
+
