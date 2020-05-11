@@ -2,11 +2,11 @@ if (! sessionStorage.clickcount) {
     sessionStorage.clickcount = 1;
 }
 
-if(sessionStorage.clickcount <= 5){
+if(sessionStorage.clickcount <= 3){
     board='board'+sessionStorage.clickcount;
     document.getElementById(board).style.display = "block";
     sessionStorage.clickcount = Number(sessionStorage.clickcount) + 1;
-    if(sessionStorage.clickcount == 6)
+    if(sessionStorage.clickcount == 4 )
         sessionStorage.removeItem('clickcount');
 }
 
